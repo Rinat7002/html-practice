@@ -1,11 +1,124 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web-Lab1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Merriweather:wght@700;900&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="stylesheet" href="/css/reset.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/css/style.css">
 </head>
+
 <body>
-    
+    <header class="header">
+        <div class="wrapper">
+            <div class="header__wrap">
+                <div class="header__logo">
+                    <img src="/images/logo.svg" alt="">
+                    <span>BuhOne</span>
+                </div>
+                <div class="header__container">
+                    <div class="header__info">
+                        <div class="header__box">
+                            <div class="header__icon">
+                                <img src="/images/phone.svg" alt="">
+                            </div>
+                            <a href="tel:8 (111) 222-33-44" class="header__value">8 (111) 222-33-44</a>
+                        </div>
+                        <div class="header__box">
+                            <div class="header__icon">
+                                <img src="/images/clock.svg" alt="">
+                            </div>
+                            <div class="header__value">Пн-Пт 10:00-18:00</div>
+                        </div>
+                        <div class="header__box">
+                            <div class="header__icon">
+                                <img src="/images/mail.svg" alt="">
+                            </div>
+                            <a href="mailto:order@buhone.ru" class="header__value">order@buhone.ru</a>
+                        </div>
+                        <div class="header__box">
+                            <div class="header__icon">
+                                <img src="images/geo.svg" alt="">
+                            </div>
+                            <address class="header__value">Невский пр. 130</address>
+                        </div>
+                    </div>
+                    <nav class="header__menu">
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">услуги</a></li>
+                            <li><a href="#">кейсы</a></li>
+                            <li><a href="#">о компании</a></li>
+                            <li><a href="#">контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+
+            </div>
+        </div>
+    </header>
+
+    <section class="promo">
+        <div class="promo__swiper swipper">
+            <div class="swiper-wrapper">
+              <div class="promo__slide swiper-slide">
+                <div class="promo__bg">
+                    <img src="/images/bg.jpg" alt="">
+                </div>
+                <div class="wrapper">
+                    <div class="promo__wrap">
+                         <div class="promo__title title">Бухгалтерские услуги
+                            в Санкт-Петербурге</div>
+                         <button class="promo__btn btn">Наша презентация</button>
+                    </div>
+                </div>
+              </div>
+              <div class="promo__slide swiper-slide">
+                <div class="promo__bg">
+                    <img src="/images/bg.jpg" alt="">
+                </div>
+                <div class="wrapper">
+                    <div class="promo__wrap">
+                         <div class="promo__title title">Бухгалтерские услуги
+                            в Москве</div>
+                         <button class="promo__btn btn">Наша презентация</button>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+          <div class="promo__bottom">
+            <div class="wrapper">
+                <div class="promo__nav">
+                    <div class="swiper-pagination swiper-pagination_white"></div>
+                    <div class="arrows arrows_white">
+                        <div class="arrow arrow_prew">
+                            <img src="/images/arrow-left.png" alt="">
+                        </div>
+                        <div class="arrow arrow_next">
+                            <img src="/images/arrow-right.png" alt="">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+    </section>
+
+
+    <footer></footer>
 </body>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/index.js"></script>
+
 </html>
